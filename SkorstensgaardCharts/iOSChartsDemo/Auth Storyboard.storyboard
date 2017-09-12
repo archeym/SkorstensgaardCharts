@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dlj-OK-0kr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="supermolot_bold_italic-webfont.ttf">
+            <string>Supermolot-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Log In View Controller-->
+        <scene sceneID="Ce1-AM-Zrm">
+            <objects>
+                <viewController storyboardIdentifier="LogInViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dlj-OK-0kr" customClass="LogInViewController" customModule="iOSChartsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5IT-Rj-yKi"/>
+                        <viewControllerLayoutGuide type="bottom" id="UDA-Dc-NO5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3c8-gq-SRk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SkorstensgaardSplash" translatesAutoresizingMaskIntoConstraints="NO" id="tll-BJ-69O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="677"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginF" translatesAutoresizingMaskIntoConstraints="NO" id="AfC-Rd-qRY">
+                                <rect key="frame" x="16" y="110" width="343" height="375"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qA8-Ur-nx9" customClass="DesignButton" customModule="iOSChartsDemo" customModuleProvider="target">
+                                <rect key="frame" x="57" y="395" width="261" height="30"/>
+                                <color key="backgroundColor" red="0.85704487562179565" green="0.38817310333251953" blue="0.35973542928695679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Supermolot-BoldItalic" family="Supermolot" pointSize="24"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="dlj-OK-0kr" eventType="touchUpInside" id="R6d-FN-rqV"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineup" translatesAutoresizingMaskIntoConstraints="NO" id="Ud2-Ia-pMS">
+                                <rect key="frame" x="142" y="218" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="k8r-NP-Xtu"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Xi-Hx-D4a" customClass="DesignableTextField" customModule="iOSChartsDemo" customModuleProvider="target">
+                                <rect key="frame" x="57" y="200" width="261" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Dgb-xH-m1A"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="car"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gQd-qx-wHL" customClass="DesignableTextField" customModule="iOSChartsDemo" customModuleProvider="target">
+                                <rect key="frame" x="57" y="246" width="261" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="io6-6w-dpL"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="car"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92618657559999995" green="0.96142077449999996" blue="0.94215480299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="tll-BJ-69O" secondAttribute="bottom" constant="-10" id="1JQ-BK-yuS"/>
+                            <constraint firstItem="gQd-qx-wHL" firstAttribute="trailing" secondItem="qA8-Ur-nx9" secondAttribute="trailing" id="2mX-0M-ojv"/>
+                            <constraint firstItem="1Xi-Hx-D4a" firstAttribute="leading" secondItem="3c8-gq-SRk" secondAttribute="leadingMargin" constant="41" id="5ca-Vy-hgu"/>
+                            <constraint firstItem="gQd-qx-wHL" firstAttribute="leading" secondItem="qA8-Ur-nx9" secondAttribute="leading" id="7WK-3i-WIm"/>
+                            <constraint firstItem="1Xi-Hx-D4a" firstAttribute="leading" secondItem="gQd-qx-wHL" secondAttribute="leading" id="9kE-Vo-r0q"/>
+                            <constraint firstItem="tll-BJ-69O" firstAttribute="centerX" secondItem="Ud2-Ia-pMS" secondAttribute="centerX" id="9nb-qd-75e"/>
+                            <constraint firstItem="Ud2-Ia-pMS" firstAttribute="top" secondItem="5IT-Rj-yKi" secondAttribute="bottom" constant="198" id="Cps-Nc-y96"/>
+                            <constraint firstItem="1Xi-Hx-D4a" firstAttribute="trailing" secondItem="gQd-qx-wHL" secondAttribute="trailing" id="EnC-nA-z3b"/>
+                            <constraint firstItem="1Xi-Hx-D4a" firstAttribute="top" secondItem="Ud2-Ia-pMS" secondAttribute="bottom" constant="-108" id="P11-MF-kIO"/>
+                            <constraint firstItem="qA8-Ur-nx9" firstAttribute="top" secondItem="gQd-qx-wHL" secondAttribute="bottom" constant="114" id="PEM-Bn-ulJ"/>
+                            <constraint firstItem="AfC-Rd-qRY" firstAttribute="centerY" secondItem="1Xi-Hx-D4a" secondAttribute="centerY" constant="80" id="XB4-Iq-PrH"/>
+                            <constraint firstItem="Ud2-Ia-pMS" firstAttribute="centerX" secondItem="1Xi-Hx-D4a" secondAttribute="centerX" id="bUl-QM-MVI"/>
+                            <constraint firstItem="AfC-Rd-qRY" firstAttribute="top" secondItem="5IT-Rj-yKi" secondAttribute="bottom" constant="90" id="c5J-wt-3Lq"/>
+                            <constraint firstItem="gQd-qx-wHL" firstAttribute="top" secondItem="1Xi-Hx-D4a" secondAttribute="bottom" constant="11" id="iwZ-B3-Q8g"/>
+                            <constraint firstItem="UDA-Dc-NO5" firstAttribute="top" secondItem="AfC-Rd-qRY" secondAttribute="bottom" constant="182" id="kSD-Cf-vZh"/>
+                            <constraint firstItem="UDA-Dc-NO5" firstAttribute="top" secondItem="qA8-Ur-nx9" secondAttribute="bottom" constant="242" id="moQ-A5-EkX"/>
+                            <constraint firstAttribute="trailing" secondItem="tll-BJ-69O" secondAttribute="trailing" id="pqY-cN-kGt"/>
+                            <constraint firstItem="AfC-Rd-qRY" firstAttribute="centerX" secondItem="Ud2-Ia-pMS" secondAttribute="centerX" id="r0l-SS-wfZ"/>
+                            <constraint firstItem="AfC-Rd-qRY" firstAttribute="leading" secondItem="3c8-gq-SRk" secondAttribute="leadingMargin" id="uqe-Xd-Wy9"/>
+                            <constraint firstItem="tll-BJ-69O" firstAttribute="top" secondItem="3c8-gq-SRk" secondAttribute="top" id="vRv-LT-zDL"/>
+                            <constraint firstItem="tll-BJ-69O" firstAttribute="leading" secondItem="3c8-gq-SRk" secondAttribute="leading" id="xKp-xZ-dxC"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="1Xi-Hx-D4a" id="tYb-xH-FoI"/>
+                        <outlet property="loginButton" destination="qA8-Ur-nx9" id="J4O-DE-HOS"/>
+                        <outlet property="passwordTextField" destination="gQd-qx-wHL" id="2H6-9q-fY6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2tz-ez-q4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="206"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SkorstensgaardSplash" width="750" height="1334"/>
+        <image name="car" width="49" height="39"/>
+        <image name="lineup" width="16" height="16"/>
+        <image name="loginF" width="550" height="715"/>
+    </resources>
+</document>

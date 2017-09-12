@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bPl-qW-D4V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="supermolot_bold_italic.ttf">
+            <string>Supermolot-BoldItalic</string>
+        </array>
+        <array key="supermolot_light_italic.ttf">
+            <string>Supermolot-LightItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Log In View Controller-->
+        <scene sceneID="PGl-Yz-elj">
+            <objects>
+                <viewController storyboardIdentifier="LogInViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bPl-qW-D4V" customClass="LogInViewController" customModule="SkorstensgaardCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bOf-QW-gmt"/>
+                        <viewControllerLayoutGuide type="bottom" id="Au0-5f-Osr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fa0-IV-wB1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SkorstensgaardSplash" translatesAutoresizingMaskIntoConstraints="NO" id="5Xr-i9-exZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginF" translatesAutoresizingMaskIntoConstraints="NO" id="ceq-V0-Vxe">
+                                <rect key="frame" x="16" y="75" width="343" height="474"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxc-Oe-6hx" customClass="DesignableTextField" customModule="SkorstensgaardCharts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="171" width="283" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Supermolot-LightItalic" family="Supermolot" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="car"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzQ-0U-BZK" customClass="DesignButton" customModule="SkorstensgaardCharts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="402" width="283" height="35"/>
+                                <color key="backgroundColor" red="0.85704487559999998" green="0.38817310329999999" blue="0.35973542930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="epY-46-Qoi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Supermolot-BoldItalic" family="Supermolot" pointSize="24"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="bPl-qW-D4V" eventType="touchUpInside" id="ekU-v2-C0P"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T47-oL-D9q" customClass="DesignableTextField" customModule="SkorstensgaardCharts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="209" width="283" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Supermolot-LightItalic" family="Supermolot" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="car"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92618657559999995" green="0.96142077449999996" blue="0.94215480299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="vxc-Oe-6hx" secondAttribute="trailing" constant="30" id="2vL-1N-OAF"/>
+                            <constraint firstItem="5Xr-i9-exZ" firstAttribute="top" secondItem="Fa0-IV-wB1" secondAttribute="top" id="HoP-mm-PyE"/>
+                            <constraint firstItem="5Xr-i9-exZ" firstAttribute="leading" secondItem="Fa0-IV-wB1" secondAttribute="leading" id="Iq3-BF-ioB"/>
+                            <constraint firstItem="T47-oL-D9q" firstAttribute="leading" secondItem="Fa0-IV-wB1" secondAttribute="leadingMargin" constant="30" id="N6C-Ep-NKd"/>
+                            <constraint firstItem="vxc-Oe-6hx" firstAttribute="leading" secondItem="Fa0-IV-wB1" secondAttribute="leadingMargin" constant="30" id="Nbz-0j-KT9"/>
+                            <constraint firstItem="OzQ-0U-BZK" firstAttribute="trailing" secondItem="T47-oL-D9q" secondAttribute="trailing" id="O4f-gH-BtQ"/>
+                            <constraint firstItem="OzQ-0U-BZK" firstAttribute="centerX" secondItem="ceq-V0-Vxe" secondAttribute="centerX" id="QYk-2p-PSU"/>
+                            <constraint firstItem="Au0-5f-Osr" firstAttribute="top" secondItem="OzQ-0U-BZK" secondAttribute="bottom" constant="230" id="WJZ-Eh-PJk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T47-oL-D9q" secondAttribute="trailing" constant="30" id="Yuo-Pm-wCJ"/>
+                            <constraint firstAttribute="trailing" secondItem="5Xr-i9-exZ" secondAttribute="trailing" id="Z4x-gW-t1I"/>
+                            <constraint firstItem="OzQ-0U-BZK" firstAttribute="leading" secondItem="T47-oL-D9q" secondAttribute="leading" id="bsn-zy-bnX"/>
+                            <constraint firstItem="ceq-V0-Vxe" firstAttribute="top" secondItem="bOf-QW-gmt" secondAttribute="bottom" constant="55" id="jIN-wW-BzK"/>
+                            <constraint firstItem="Au0-5f-Osr" firstAttribute="top" secondItem="5Xr-i9-exZ" secondAttribute="bottom" id="o8n-Gg-Tug"/>
+                            <constraint firstItem="Au0-5f-Osr" firstAttribute="top" secondItem="ceq-V0-Vxe" secondAttribute="bottom" constant="118" id="pQp-Hi-8XA"/>
+                            <constraint firstItem="vxc-Oe-6hx" firstAttribute="top" secondItem="bOf-QW-gmt" secondAttribute="bottom" constant="151" id="qkH-ik-yRC"/>
+                            <constraint firstItem="T47-oL-D9q" firstAttribute="top" secondItem="vxc-Oe-6hx" secondAttribute="bottom" constant="8" id="qnf-AZ-ifW"/>
+                            <constraint firstItem="ceq-V0-Vxe" firstAttribute="leading" secondItem="Fa0-IV-wB1" secondAttribute="leadingMargin" id="thp-ek-5ep"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="vxc-Oe-6hx" id="HKG-uI-clh"/>
+                        <outlet property="loginButton" destination="OzQ-0U-BZK" id="xll-ck-BLe"/>
+                        <outlet property="passwordTextField" destination="T47-oL-D9q" id="QTR-c0-Hub"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HoI-Z0-UBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="164.78873239436621"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SkorstensgaardSplash" width="750" height="1334"/>
+        <image name="car" width="49" height="39"/>
+        <image name="loginF" width="1101" height="1431"/>
+    </resources>
+</document>
