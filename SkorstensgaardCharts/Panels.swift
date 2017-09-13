@@ -16,7 +16,6 @@ class Panel: Decodable {
     var value : String = ""
     var type: String = ""
     var components: [Component] = []
-    var dataColumns: [Columns] = []
     
     init(id: Int) {
         self.id = id
@@ -30,8 +29,6 @@ class Panel: Decodable {
         
         if let compJSON: [JSON] = "components" <~~ json {
             self.components = [Component].from(jsonArray: compJSON) ?? []
-            self.dataColumns = [Columns].from(jsonArray: compJSON) ?? []
-            
         }
       
     }

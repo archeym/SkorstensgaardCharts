@@ -22,14 +22,17 @@
 		817199AC1F612642001D4F02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199AB1F612642001D4F02 /* DetailViewController.swift */; };
 		817199AE1F628414001D4F02 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199AD1F628414001D4F02 /* Components.swift */; };
 		817199B31F6294D6001D4F02 /* DataData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199B21F6294D6001D4F02 /* DataData.swift */; };
-		817199B51F66CA3E001D4F02 /* Columns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199B41F66CA3E001D4F02 /* Columns.swift */; };
+		817199C51F6824D8001D4F02 /* SemiCircularScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199C41F6824D8001D4F02 /* SemiCircularScale.swift */; };
+		817199C71F6824FF001D4F02 /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199C61F6824FF001D4F02 /* SpeedViewController.swift */; };
+		817199C91F68254A001D4F02 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 817199C81F68254A001D4F02 /* needle.png */; };
+		817199CB1F6825EE001D4F02 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199CA1F6825EE001D4F02 /* FloatingButton.swift */; };
+		817199CD1F682616001D4F02 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817199CC1F682616001D4F02 /* UIButtonX.swift */; };
 		81CA82C11F5EAE1E00FFD6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82C01F5EAE1E00FFD6C5 /* AppDelegate.swift */; };
 		81CA82C61F5EAE1E00FFD6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA82C41F5EAE1E00FFD6C5 /* Main.storyboard */; };
 		81CA82C81F5EAE1E00FFD6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CA82C71F5EAE1E00FFD6C5 /* Assets.xcassets */; };
 		81CA82CB1F5EAE1E00FFD6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA82C91F5EAE1E00FFD6C5 /* LaunchScreen.storyboard */; };
 		81CA82D31F5EAFFF00FFD6C5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82D21F5EAFFF00FFD6C5 /* TableViewController.swift */; };
 		81CA82D51F5EB05900FFD6C5 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82D41F5EB05900FFD6C5 /* BarChartViewController.swift */; };
-		81CA82D71F5EB0C800FFD6C5 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82D61F5EB0C800FFD6C5 /* PieChartViewController.swift */; };
 		81CA82E81F5EB4D400FFD6C5 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82E71F5EB4D400FFD6C5 /* BounceButton.swift */; };
 		81CA82EB1F5EB4FE00FFD6C5 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82EA1F5EB4FE00FFD6C5 /* DesignButton.swift */; };
 		81CA82ED1F5EB50400FFD6C5 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA82EC1F5EB50400FFD6C5 /* DesignView.swift */; };
@@ -71,7 +74,12 @@
 		817199AB1F612642001D4F02 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		817199AD1F628414001D4F02 /* Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		817199B21F6294D6001D4F02 /* DataData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataData.swift; sourceTree = "<group>"; };
-		817199B41F66CA3E001D4F02 /* Columns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Columns.swift; sourceTree = "<group>"; };
+		817199B81F67CB88001D4F02 /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = "Pods/../build/Debug-iphoneos/SVGKit/SVGKit.framework"; sourceTree = "<group>"; };
+		817199C41F6824D8001D4F02 /* SemiCircularScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiCircularScale.swift; sourceTree = "<group>"; };
+		817199C61F6824FF001D4F02 /* SpeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
+		817199C81F68254A001D4F02 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		817199CA1F6825EE001D4F02 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		817199CC1F682616001D4F02 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		81CA82BD1F5EAE1E00FFD6C5 /* SkorstensgaardCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkorstensgaardCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CA82C01F5EAE1E00FFD6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81CA82C51F5EAE1E00FFD6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +88,6 @@
 		81CA82CC1F5EAE1E00FFD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81CA82D21F5EAFFF00FFD6C5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		81CA82D41F5EB05900FFD6C5 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
-		81CA82D61F5EB0C800FFD6C5 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		81CA82E71F5EB4D400FFD6C5 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		81CA82EA1F5EB4FE00FFD6C5 /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
 		81CA82EC1F5EB50400FFD6C5 /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 		817199901F5FFD40001D4F02 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				817199C81F68254A001D4F02 /* needle.png */,
 				817199911F5FFD4F001D4F02 /* supermolot_black_italic.ttf */,
 				817199921F5FFD4F001D4F02 /* supermolot_black.ttf */,
 				817199931F5FFD4F001D4F02 /* supermolot_bold_italic.ttf */,
@@ -152,6 +160,9 @@
 			children = (
 				817199901F5FFD40001D4F02 /* Fonts */,
 				81CA82C01F5EAE1E00FFD6C5 /* AppDelegate.swift */,
+				817199C41F6824D8001D4F02 /* SemiCircularScale.swift */,
+				817199CA1F6825EE001D4F02 /* FloatingButton.swift */,
+				817199CC1F682616001D4F02 /* UIButtonX.swift */,
 				81CA82E91F5EB4DF00FFD6C5 /* IBDesignable */,
 				81CA82E61F5EB4BC00FFD6C5 /* CustomControl */,
 				81CA82FD1F5EB55B00FFD6C5 /* Models */,
@@ -189,7 +200,6 @@
 				81CA83001F5EB5A200FFD6C5 /* Panels.swift */,
 				817199AD1F628414001D4F02 /* Components.swift */,
 				817199B21F6294D6001D4F02 /* DataData.swift */,
-				817199B41F66CA3E001D4F02 /* Columns.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -199,10 +209,10 @@
 			children = (
 				81CA82D21F5EAFFF00FFD6C5 /* TableViewController.swift */,
 				81CA82D41F5EB05900FFD6C5 /* BarChartViewController.swift */,
-				81CA82D61F5EB0C800FFD6C5 /* PieChartViewController.swift */,
 				817199A91F612040001D4F02 /* ShowViewController.swift */,
 				817199AB1F612642001D4F02 /* DetailViewController.swift */,
 				214C05F31F64037A008CDD79 /* DataViewController.swift */,
+				817199C61F6824FF001D4F02 /* SpeedViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -219,6 +229,7 @@
 		EB3E7FE828BDADF7BD72E17E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				817199B81F67CB88001D4F02 /* SVGKit.framework */,
 				FE3361D152858F5F39122609 /* Pods_SkorstensgaardCharts.framework */,
 			);
 			name = Frameworks;
@@ -294,6 +305,7 @@
 				8171999B1F5FFD4F001D4F02 /* supermolot_black_italic.ttf in Resources */,
 				8171999F1F5FFD4F001D4F02 /* supermolot_italic.ttf in Resources */,
 				81CA82CB1F5EAE1E00FFD6C5 /* LaunchScreen.storyboard in Resources */,
+				817199C91F68254A001D4F02 /* needle.png in Resources */,
 				817199A11F5FFD4F001D4F02 /* supermolot_light.ttf in Resources */,
 				8171999D1F5FFD4F001D4F02 /* supermolot_bold_italic.ttf in Resources */,
 				81CA82C81F5EAE1E00FFD6C5 /* Assets.xcassets in Resources */,
@@ -314,13 +326,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkorstensgaardCharts-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA73FE684994E2CF8EF2757B /* [CP] Embed Pods Frameworks */ = {
@@ -329,9 +344,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkorstensgaardCharts/Pods-SkorstensgaardCharts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -361,18 +381,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CA83011F5EB5A200FFD6C5 /* Panels.swift in Sources */,
+				817199CB1F6825EE001D4F02 /* FloatingButton.swift in Sources */,
 				81CA82C11F5EAE1E00FFD6C5 /* AppDelegate.swift in Sources */,
 				817199AE1F628414001D4F02 /* Components.swift in Sources */,
 				81CA82E81F5EB4D400FFD6C5 /* BounceButton.swift in Sources */,
+				817199C71F6824FF001D4F02 /* SpeedViewController.swift in Sources */,
 				81CA82D31F5EAFFF00FFD6C5 /* TableViewController.swift in Sources */,
 				81CA82EF1F5EB50A00FFD6C5 /* DesignableTextField.swift in Sources */,
 				81CA82EB1F5EB4FE00FFD6C5 /* DesignButton.swift in Sources */,
 				214C05F41F64037A008CDD79 /* DataViewController.swift in Sources */,
 				81CA830A1F5FF33700FFD6C5 /* LogInViewController.swift in Sources */,
-				817199B51F66CA3E001D4F02 /* Columns.swift in Sources */,
+				817199C51F6824D8001D4F02 /* SemiCircularScale.swift in Sources */,
 				817199AA1F612040001D4F02 /* ShowViewController.swift in Sources */,
-				81CA82D71F5EB0C800FFD6C5 /* PieChartViewController.swift in Sources */,
 				81CA82D51F5EB05900FFD6C5 /* BarChartViewController.swift in Sources */,
+				817199CD1F682616001D4F02 /* UIButtonX.swift in Sources */,
 				81CA82ED1F5EB50400FFD6C5 /* DesignView.swift in Sources */,
 				817199AC1F612642001D4F02 /* DetailViewController.swift in Sources */,
 				817199B31F6294D6001D4F02 /* DataData.swift in Sources */,
@@ -503,6 +525,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2PY6DJMTU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVGKit",
+				);
 				INFOPLIST_FILE = SkorstensgaardCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.adevo.SkorstensgaardCharts;
@@ -518,6 +544,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2PY6DJMTU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVGKit",
+				);
 				INFOPLIST_FILE = SkorstensgaardCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.adevo.SkorstensgaardCharts;

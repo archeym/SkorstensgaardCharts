@@ -22,6 +22,7 @@ class DataData: Decodable {
         guard let type: String = "type" <~~ json else {
             return nil
         }
+        
         self.type = type
         if let dataJson: [JSON] = "data" <~~ json,
            let titleJson: JSON = dataJson.first,

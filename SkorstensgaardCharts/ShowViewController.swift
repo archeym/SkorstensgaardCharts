@@ -17,9 +17,6 @@ class ShowViewController: UIViewController, UITableViewDelegate, UITableViewData
     var panels = [Panel]()
     var compo = [Component]()
     var dataData = [DataData]()
-   
-
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {

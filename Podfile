@@ -7,5 +7,5 @@ target 'SkorstensgaardCharts' do
 
   pod 'Gloss', '~> 1.2'
   pod 'Charts'
-
+  
 end

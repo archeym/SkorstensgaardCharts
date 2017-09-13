@@ -18,13 +18,13 @@ class DetailViewController: UIViewController {
     //var reviewText = [String]()
     var panel : Panel!
     var components : [Component]!
-    var columns : [Columns]!
+    
 
     var data: DataData!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Some Title"
+        self.title = "Levels"
         tableView.dataSource = self
         tableView.reloadData()
         titleLabel.text = panel.title
